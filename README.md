@@ -38,27 +38,27 @@ Analysis of the YouTube trending data revealed:
 - Entertainment category shows the most consistent performance with 332 high and 887 medium popularity videos
 
 ## Repository Structure
-
+```
 YT-Insight-Hub/
 ├── images/
-│   └── architecture_diagram.png
+     └── architecture_diagram.png
 ├── lambda/
-│   └── trigger_etl.py
+     └── trigger_etl.py
 ├── glue/
-│   └── transform_youtube_data.py
+     └── transform_youtube_data.py
 ├── athena/
-│   └── youtube_queries.sql
+     └── youtube_queries.sql
 ├── sample_data/
-│   ├── youtube_sample.csv
-│   └── category_sample.json
+     ├── youtube_sample.csv
+         └── category_sample.json
 ├── tableau/
-│   └── youtube_dashboard.twb
+     └── youtube_dashboard.twb
 ├── docs/
-│   ├── data_dictionary.md
-│   └── pipeline_setup.md
+      ├── data_dictionary.md
+          └── pipeline_setup.md
 ├── README.md
-└── LICENSE
-
+     ── LICENSE
+```
 ## Setup Instructions
 
 ### Prerequisites
